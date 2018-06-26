@@ -7,11 +7,12 @@ Download the shell script to a location of your choice on your Oracle Linux 6 bo
 
 ## Known issues
 
-### OpenSSL error
+#### OpenSSL error
 
-You may experience an error that looks like `OpenSSL: error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version Unable to establish SSL connection.`
+You may experience an error that looks like `OpenSSL: error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version   Unable to establish SSL connection.`
 
 To fix this, update wget with `sudo yum install wget` and run the script again.
+
 
 ## Credits  
 
